@@ -7,9 +7,9 @@
 
 使用命令进行解压：rpm2cpio openssh-7.4p1-21.el7.src.rpm |cpio -iv 
 获取如下信息：
-1. openssh.spec
-2. openssh-6.6p1-systemd.patch
-3. openssh-7.4p1-debian-restore-tcp-wrappers.patch
+a. openssh.spec
+b. openssh-6.6p1-systemd.patch
+c. openssh-7.4p1-debian-restore-tcp-wrappers.patch
 
 3. 安装编译依赖包
 yum install rpm-build gcc make wget openssl-devel krb5-devel pam-devel libX11-devel xmkmf libXt-devel autoconf automake libtool -y
